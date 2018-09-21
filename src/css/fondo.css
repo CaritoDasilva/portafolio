@@ -1,0 +1,20 @@
+body {
+
+  color: #fff;
+  background-image: url(../imgs/fondo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+
+#contentCarito {
+  width: 100%;
+  margin-top: 5%;
+  padding: 5%;
+}
+
+#carito {
+  margin: auto;
+  display: block;
+}
