@@ -173,3 +173,43 @@
     transform: translate3d(0, -25%, 0);
   }
 }
+
+@media only screen {
+  .content {
+    height: 80px;
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 8%;
+    padding-bottom: 8%;
+    width: 350px;
+  }
+
+
+
+  .content__container__list {
+
+    width: 250px;
+    text-overflow: ellipsis;
+    margin-right: 5%;
+  }
+
+  .content__container__list__item {
+    line-height: 60px;
+    width: 200px;
+
+    font-size: 20px;
+  }
+
+  .title {
+    margin: 15%;
+  }
+
+
+  .content__container {
+
+    padding: 0 20px;
+    overflow: visible;
+  }
+
+  /* Define mobile styles - Mobile First */
+}
