@@ -1,3 +1,8 @@
+.title {
+  margin: 4% 7%;
+
+}
+
 .content {
   position: absolute;
 
@@ -50,11 +55,12 @@
   display: inline;
   float: left;
   margin: 0;
+  padding-right: 0%;
 }
 
 .content__container__list {
   margin-top: 0;
-  padding-left: 110px;
+  padding-left: 150px;
   text-align: left;
   list-style: none;
   -webkit-animation-name: change;
@@ -68,6 +74,7 @@
 .content__container__list__item {
   line-height: 40px;
   margin: 0;
+
 }
 
 @-webkit-keyframes opacity {
@@ -174,14 +181,14 @@
   }
 }
 
-@media only screen {
+@media screen and (max-width: 480px) {
   .content {
     height: 80px;
     font-size: 30px;
-    line-height: 50px;
+    line-height: 40px;
     margin-bottom: 8%;
     padding-bottom: 8%;
-    width: 350px;
+    width: 275px;
   }
 
 
@@ -190,26 +197,33 @@
 
     width: 250px;
     text-overflow: ellipsis;
-    margin-right: 5%;
+    padding: 3%;
   }
 
   .content__container__list__item {
-    line-height: 60px;
-    width: 200px;
+    line-height: 40px;
+    width: 300px;
+    padding-right: 10px;
+    font-size: 25px;
 
-    font-size: 20px;
   }
 
   .title {
-    margin: 15%;
+    margin: 10%;
+
   }
 
 
   .content__container {
 
-    padding: 0 20px;
-    overflow: visible;
+    padding: 0 8px;
+
   }
+
+  #imText {
+    display: none;
+  }
+
 
   /* Define mobile styles - Mobile First */
 }
