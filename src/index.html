@@ -20,126 +20,126 @@
 
 
 <body>
-
-  <div class="row title">
-    <div class="content" id="content">
-      <div class="content__container">
-        <div id="imText">
-          <p class="content__container__text">
-            I'm
-          </p>
+  <div class="container">
+    <div class="row title">
+      <div class="content" id="content">
+        <div class="content__container">
+          <div id="imText">
+            <p class="content__container__text">
+              I'm
+            </p>
+          </div>
+          <ul class="content__container__list">
+            <li class="content__container__list__item">Carito Da Silva!</li>
+            <li class="content__container__list__item">FrontEnd Developer!</li>
+            <li class="content__container__list__item">Coder Lover <img src="./imgs/pixel-heart-2779422_960_720.png" id="heart"
+                alt="">!</li>
+            <li class="content__container__list__item">Coffee
+              Addict!</li>
+          </ul>
         </div>
-        <ul class="content__container__list">
-          <li class="content__container__list__item">Carito Da Silva!</li>
-          <li class="content__container__list__item">FrontEnd Developer!</li>
-          <li class="content__container__list__item">Coder Lover <img src="./imgs/pixel-heart-2779422_960_720.png" id="heart"
-              alt="">!</li>
-          <li class="content__container__list__item">Coffee
-            Addict!</li>
-        </ul>
       </div>
     </div>
+    <div class="row"></div>
+    <div id="contentCarito">
+      <div class="shake-slow">
+        <img src="./imgs/rostro1.png" alt="" id="carito">
+      </div>
+    </div>
+    <section>
+      <button class='lined thin' data-toggle="modal" data-target="#exampleModalLong" id="favoriteCodes" onclick="openModals()">FavoriteCodes</button>
+      <!-- Modal -->
+
+      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">FavoriteCodes</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeModal()">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ####
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeModal()">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class='lined thin' data-toggle="modal" data-target="#myWorldModal" id="myWorld" onclick="openModals()">MyWorld</button>
+      <!-- Modal -->
+      <div class="modal fade" id="myWorldModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">MyWorld</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeModal()">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              And Thats me!kkkkk
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeModal()">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class='lined thin' data-toggle="modal" data-target="#letsTalkModal" id="letsTalk" onclick="openModals()">LetsTalk</button>
+      <!-- Modal -->
+      <div class="modal fade" id="letsTalkModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Soy Modal de Contacto</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeModal()">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ####
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeModal()">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class='lined thin' data-toggle="modal" data-target="#linedModal" id="lined" onclick="openModals()">Lined
+        Thin</button>
+      <!-- Modal -->
+      <div class="modal fade" id="linedModal" tabindex=" -1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">###Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeModal()">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ####
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeModal()">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
-  <div class="row"></div>
-  <div id="contentCarito">
-    <div class="shake-slow">
-      <img src="./imgs/rostro1.png" alt="" id="carito">
-    </div>
-  </div>
-  <section>
-    <button class='lined thin' data-toggle="modal" data-target="#exampleModalLong" id="favoriteCodes" onclick="openModals()">FavoriteCodes</button>
-    <!-- Modal -->
-
-    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
-      aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">FavoriteCodes</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeModal()">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            ####
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class='lined thin' data-toggle="modal" data-target="#myWorldModal" id="myWorld" onclick="openModals()">MyWorld</button>
-    <!-- Modal -->
-    <div class="modal fade" id="myWorldModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
-      aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">MyWorld</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeModal()">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            And Thats me!kkkkk
-
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class='lined thin' data-toggle="modal" data-target="#letsTalkModal" id="letsTalk" onclick="openModals()">LetsTalk</button>
-    <!-- Modal -->
-    <div class="modal fade" id="letsTalkModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
-      aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Soy Modal de Contacto</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeModal()">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            ####
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class='lined thin' data-toggle="modal" data-target="#linedModal" id="lined" onclick="openModals()">Lined
-      Thin</button>
-    <!-- Modal -->
-    <div class="modal fade" id="linedModal" tabindex=" -1" role="dialog" aria-labelledby="exampleModalLongTitle"
-      aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">###Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeModal()">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            ####
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
 
 
 

@@ -1,0 +1,36 @@
+body {
+
+  color: #fff;
+  background-image: url(../imgs/fondo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+
+#contentCarito {
+  width: 100%;
+  margin: 0;
+  padding: 2%;
+
+}
+
+#carito {
+  margin: auto;
+  display: block;
+}
+
+@media screen and (max-width: 480px) {
+  #contentCarito {
+    width: 100%;
+    margin: 0;
+    padding: 1%;
+
+  }
+
+  #carito {
+    margin: auto;
+    display: block;
+    width: 70%;
+  }
+}

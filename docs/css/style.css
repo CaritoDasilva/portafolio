@@ -1,0 +1,21 @@
+#heart {
+  width: 10%;
+  height: 10%;
+}
+
+.modal-content {
+  background-color: #ff017813;
+  width: 205vh;
+  height: 95vh;
+
+
+}
+
+.modal-dialog {
+  margin: 1%;
+}
+
+.close {
+  color: white;
+  font-size: 50px;
+}
