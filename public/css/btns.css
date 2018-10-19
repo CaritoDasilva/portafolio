@@ -1,4 +1,4 @@
-@import url(https: //fonts.googleapis.com/css?family=Patrick+Hand+SC);
+@import url("https: //fonts.googleapis.com/css?family=Patrick+Hand+SC");
 
 * {
   box-sizing: border-box;
@@ -11,7 +11,7 @@ body section {
   justify-content: center;
   width: 100%;
   min-height: 100%;
-  margin-bottom: 3rem;
+  margin: 1% 0%;
 }
 
 html section button,
@@ -64,7 +64,7 @@ body section button.lined.thin {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 1rem;
+    margin: 15% 0%;
   }
 
   body section button {
