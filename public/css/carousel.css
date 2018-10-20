@@ -78,7 +78,7 @@ main {
   #carousel div.selected {
     width: 50%;
     height: 50%;
-    left: 11%;
+    left: 10%;
   }
 
   #carousel div.next {
@@ -117,7 +117,7 @@ main {
   #carousel div.selected {
     width: 100%;
     height: 100%;
-    left: 50%;
+    left: 10%;
   }
 
   #carousel div.next {
@@ -154,8 +154,13 @@ main {
   #carousel div.selected {
     width: 50%;
     height: 50%;
-    left: 1%;
+    left: 10%;
   }
+
+  #carousel div.prev {
+    left: 32%;
+  }
+
 
   #carousel div.next {
     width: 50%;
@@ -191,10 +196,15 @@ main {
     left: 1%;
   }
 
+  #carousel div.prev {
+    left: 32%;
+  }
+
+
   #carousel div.selected {
     width: 50%;
     height: 50%;
-    left: 1%;
+    left: 21%;
   }
 
   #carousel div.next {
@@ -236,7 +246,7 @@ main {
   #carousel div.selected {
     width: 50%;
     height: 50%;
-    left: 1%;
+    left: 10%;
   }
 
   #carousel div.next {
@@ -277,7 +287,7 @@ main {
   #carousel div.selected {
     width: 50%;
     height: 50%;
-    left: 1%;
+    left: 21%;
   }
 
   #carousel div.next {
@@ -296,3 +306,95 @@ main {
     margin-left: 1%;
 
   }
+}
+
+/* ----------- Google Pixel ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  #carousel {
+    height: 200px;
+    margin-top: 30%;
+    overflow: visible;
+    width: 100%;
+  }
+
+  #carousel div.prev img {
+    height: 50%;
+    width: 50%;
+    left: 1%;
+  }
+
+  #carousel div.prev img {
+    height: 50%;
+    width: 50%;
+    left: 1%;
+  }
+
+  #carousel div.selected {
+    width: 50%;
+    height: 50%;
+    left: 10%;
+  }
+
+  #carousel div.next {
+    width: 50%;
+    height: 50%;
+  }
+
+  #carousel div.next img {
+    width: 50%;
+    height: 50%;
+    left: 1%;
+  }
+
+  .buttonsProjects {
+
+    margin-left: 0%;
+
+  }
+
+}
+
+
+/* ----------- Google Pixel XL ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+
+  #carousel {
+    height: 200px;
+    margin-top: 30%;
+    overflow: visible;
+    width: 100%;
+  }
+
+  #carousel div.prev img {
+    height: 50%;
+    width: 50%;
+    left: 1%;
+  }
+
+  #carousel div.selected {
+    width: 50%;
+    height: 50%;
+    left: 21%;
+  }
+
+  #carousel div.next {
+    width: 50%;
+    height: 50%;
+  }
+
+  #carousel div.next img {
+    width: 50%;
+    height: 50%;
+    left: 1%;
+  }
+
+  .buttonsProjects {
+
+    margin-left: 1%;
+
+  }
+}
