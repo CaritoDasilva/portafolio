@@ -8,8 +8,6 @@ function openModals() {
 
 };
 
-
-
 function closeModal() {
   document.getElementById('carito').style.display = "block";
   favoriteCodes.style.display = "block";

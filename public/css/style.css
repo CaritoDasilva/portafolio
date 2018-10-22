@@ -1,3 +1,11 @@
+.container-fluid {
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  width: 100%;
+}
+
 #heart {
   width: 10%;
   height: 10%;
@@ -5,10 +13,9 @@
 
 .modal-content {
   display: flex;
-
   background-color: #ff017813;
-  width: 215vh;
-  height: 95vh;
+  width: 211vh;
+  height: 96vh;
   font-size: 40px;
 }
 
@@ -16,138 +23,26 @@
   margin: 1%;
 }
 
+.carousel {
+  width: 90%;
+  height: 100%;
+}
+
+.carousel .carousel-item {
+  width: 400px;
+  height: 300px;
+}
+
 .close {
   color: white;
   font-size: 50px;
 }
 
-
-
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  .btn-secondary {
-    margin-top: 10%;
-  }
+/* Smartphones (portrait & landscape) */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
   .modal-content {
 
-    background-color: #ff017813;
-    width: 84vh;
-    height: 97vh;
-    font-size: 22px;
-  }
-}
-
-/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-
-  .btn-secondary {
-    margin-top: 10%;
-  }
-
-  .modal-content {
-    background-color: #ff017813;
-    width: 55vh;
-    height: 98vh;
-    font-size: 22px;
-  }
-}
-
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-
-  .btn-secondary {
-    margin-top: 10%;
-  }
-
-  .modal-content {
-    background-color: #ff017813;
-    width: 55vh;
-    height: 98vh;
-    font-size: 22px;
-  }
-}
-
-/* Para 480px */
-@media only screen and (max-width: 500px) and (min-width: 341px) {
-  .btn-secondary {
-    margin-top: 10%;
-  }
-
-  .modal-content {
-    background-color: #ff017813;
-    width: 55vh;
-    height: 98vh;
-    font-size: 22px;
-  }
-}
-
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  .btn-secondary {
-    margin-top: 10%;
-  }
-
-  .modal-content {
-    background-color: #ff017813;
-    width: 55vh;
-    height: 98vh;
-    font-size: 22px;
-  }
-}
-
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  .btn-secondary {
-    margin-top: 10%;
-  }
-
-  .modal-content {
-    background-color: #ff017813;
-    width: 55vh;
-    height: 98vh;
-    font-size: 22px;
-  }
-}
-
-/* ----------- Google Pixel ----------- */
-
-/* Portrait and Landscape */
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-  .btn-secondary {
-    margin-top: 10%;
-  }
-
-  .modal-content {
-    background-color: #ff017813;
-    width: 55vh;
-    height: 98vh;
-    font-size: 22px;
-  }
-}
-
-/* ----------- Google Pixel XL ----------- */
-
-/* Portrait and Landscape */
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
-  .btn-secondary {
-    margin-top: 10%;
-  }
-
-  .modal-content {
-    background-color: #ff017813;
-    width: 55vh;
-    height: 98vh;
-    font-size: 22px;
+    font-size: 20px;
   }
 }

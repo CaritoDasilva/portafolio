@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-html section,
+/* html section,
 body section {
   display: flex;
   flex-direction: row;
@@ -12,6 +12,11 @@ body section {
   width: 100%;
   min-height: 100%;
   margin: 1% 0%;
+} */
+
+.btns {
+  display: flex;
+  padding-bottom: 2%;
 }
 
 html section button,
