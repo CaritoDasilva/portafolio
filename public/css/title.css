@@ -1,6 +1,10 @@
+#heart {
+  width: 10%;
+  height: 10%;
+}
+
 .content {
   position: absolute;
-
   left: 45%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -11,6 +15,16 @@
   line-height: 40px;
   color: #ecf0f1;
   margin: 7% 5% 1% 5%;
+  top: 25px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .content {
+    top: 50px;
+  }
+
 }
 
 .content__container {
@@ -46,14 +60,19 @@
   animation-iteration-count: infinite;
 }
 
+.allItems {
+  padding-left: 31%;
+}
+
 .content__container__text {
-  display: inline;
+  padding-left: 10%;
   float: left;
   margin: 0;
   padding-right: 0%;
 }
 
 .content__container__list {
+  align-self: flex-end;
   margin-top: 0;
   padding-left: 150px;
   text-align: left;
@@ -177,6 +196,11 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .allItems {
+    padding-left: 3%;
+  }
+
   .content {
     height: 80px;
     font-size: 30px;

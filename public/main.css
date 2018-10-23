@@ -1,0 +1,37 @@
+body {
+  background-image: url(./imgs/fondoPortafolio.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.foto {
+  margin-top: 100px;
+}
+
+
+
+.carousel .carousel-item {
+  width: 400px;
+  height: 300px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .carousel .carousel-item {
+    width: 300px;
+
+  }
+
+}
+
+#carruselContent {
+  display: none;
+}
+
+#contactContent {
+  display: none;
+}
+
+.contacto {
+  margin: 4%;
+}

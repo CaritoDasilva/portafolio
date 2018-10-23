@@ -1,30 +1,17 @@
-@import url("https: //fonts.googleapis.com/css?family=Patrick+Hand+SC");
-
 * {
   box-sizing: border-box;
 }
 
-/* html section,
-body section {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  min-height: 100%;
-  margin: 1% 0%;
-} */
 
 .btns {
-  display: flex;
   padding-bottom: 2%;
 }
 
-html section button,
-body section button {
+button {
   align-self: center;
   background: transparent;
   padding: 1rem 1rem;
-  margin: 0 1rem;
+
   transition: all .5s ease;
   color: white;
   font-size: 2rem;
@@ -41,20 +28,17 @@ body section button {
   */
 }
 
-html section button:hover,
-body section button:hover {
+button:hover {
   box-shadow: 2px 8px 4px -6px rgba(0, 0, 0, 0.3);
 }
 
-html section button.lined.thick,
-body section button.lined.thick {
+button.lined.thick {
   border: solid 7px white;
 }
 
 
 
-html section button.lined.thin,
-body section button.lined.thin {
+button.lined.thin {
   border: solid 2px white;
 }
 

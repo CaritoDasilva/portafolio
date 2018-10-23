@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CARITO DA SILVA</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/csshake/1.5.3/csshake-slow.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  <link rel="shortcut icon" href="imgs/rostro1.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/fondo.css">
+  <link rel="stylesheet" href="./css/btns.css">
+  <link rel="stylesheet" href="./css/title.css">
+</head>
+
+
+<body>
+  <div class="container-fluid">
+
+    <div class="content" id="content">
+      <div class="col s6 content__container">
+        <div id="imText">
+          <p class="content__container__text">
+            I'm
+          </p>
+        </div>
+        <div class="col s6 allItems">
+          <ul class="content__container__list">
+            <li class="content__container__list__item">Carito Da Silva!</li>
+            <li class="content__container__list__item">FrontEnd Developer!</li>
+            <li class="content__container__list__item">Coder Lover <img src="./imgs/pixel-heart-2779422_960_720.png" id="heart"
+                alt="">!</li>
+            <li class="content__container__list__item">Coffee
+              Addict!</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="row shake-slow" id="contentCarito">
+        <img src="./imgs/caritoLogo.png" alt="" id="carito">
+      </div>
+    </section>
+
+
+    <!-- Carrusel -->
+    <div class="carousel" id="carousel">
+      <a class="carousel-item" href="https://github.com/CaritoDasilva/pinterestChallenge" target="_blank"
+        data-description="Es una app web que simula a Pinterest realizada en Angular y conectando con una API que envía coincidencias acordes a la búsqueda del Usuario"><img
+          src="./imgs/pinterest.jpeg"></a>
+      <a class="carousel-item" href="https://github.com/CaritoDasilva/scl-2018-01-FE-markdown" target="_blank"
+        data-description="Markdown es una librería encargada de verificar el estado de los links existentes en los ReadMe"><img
+          src="./imgs/markdown.jpeg"></a>
+      <a class="carousel-item" href="https://github.com/CaritoDasilva/scl-2018-01-foodmap" target="_blank"
+        data-description="Es un buscador de comida que geolocaliza comida en los alrededores del usuario"><img src="./imgs/foodMap.jpeg"></a>
+      <div id="carouselDescription"></div>
+    </div>
+    <section class="btns">
+
+      <!-- Modal -->
+      <button class='lined thin' data-target="modal1" id="myWorld" onclick="openModals()">MyWorld</button>
+      <button class='lined thin' data-toggle="modal" data-target="#myWorldModal" id="favoriteCodes" onclick="openModals()">FavoriteCodes</button>
+      <button class='lined thin modal-trigger' href="#modal1" data-toggle="modal" data-target="#letsTalkModal" id="letsTalk"
+        onclick="myContacInfo()">LetsTalk</button>
+
+      <!-- Información de contacto -->
+
+      <!-- Modal Trigger -->
+
+      <!-- Modal Structure -->
+      <!-- <div id="modal1" class="modal">
+        <div class="modal-content"> -->
+      <div class="row">
+        <div class="col s12 m7">
+          <div class="modal card" id="modal1">
+            <div class="card-image">
+              <img src="./imgs/callMe.jpg" class="responsive-img">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <p>
+                Conversemos...I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+              <h4></h4>
+              <p>A bunch of text</p>
+              <p>
+                <a href="mailto:caritodasilva@gmail.com"><i class="fas fa-envelope"></i></a>
+              </p>
+              <p>
+                <a href="https://www.linkedin.com/in/carolina-da-silva-hern%C3%A1ndez-9742b4138/"><i class="fab fa-linkedin"></i></a>
+              </p>
+              <p>
+                <a href="https://github.com/CaritoDasilva"><i class="fab fa-github"></i></a>
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="large material-icons">close</i></a>
+            </div>
+          </div>
+          <!-- </div>
+      </div> -->
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Menú Flotante -->
+
+  <div class="fixed-action-btn toolbar" id="menu">
+    <a class="btn-floating btn-large blueviolet">
+      <i class="large material-icons">filter_list</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating " onclick="closeModal()">HOME</a></li>
+      <li><a class="btn-floating ">MyWorld</a></li>
+      <li><a class="btn-floating">LetsTalk</a></li>
+      <li><a class="btn-floating">FavoriteCodes</a></li>
+    </ul>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <!-- <script src="./js/app.js"></script> -->
+  <script src="./js/btnModals.js"></script>
+
+</body>
+
+</html>
