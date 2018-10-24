@@ -81,3 +81,8 @@
 
   /* Define mobile styles - Mobile First */
 }
+
+.fotosBio {
+  height: 300px;
+  overflow: hidden;
+}

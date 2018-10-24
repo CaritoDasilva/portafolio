@@ -13,16 +13,18 @@
     myWorld.style.display = "none";
     letsTalk.style.display = "none";
     content.style.display = "none";
+    document.getElementById('carruselBio').style.display = "none";
     document.getElementById('contactContent').style.display = "none";
     // document.getElementById('menu').style.display = "block";
     document.getElementById('carruselContent').style.display = "block";
     var elems = document.querySelectorAll('.carousel');
-    instances = M.Carousel.init(elems, {
-      onCycleTo: (element) => {
-        document.getElementById("carouselDescription").innerHTML = `<ul>${element.getAttribute('data-description')}</ul>`;
-        document.getElementById("carouselDescription").innerHTML += `<ul href="${element.href}" target="_blank">${element.href}</ul>`;
-      }
-    });
+    instances = M.Carousel.init(elems);
+    // {
+    // onCycleTo: (element) => {
+    //   document.getElementById("carouselDescription").innerHTML = `<ul>${element.getAttribute('data-description')}</ul>`;
+    //   document.getElementById("carouselDescription").innerHTML += `<ul href="${element.href}" target="_blank">${element.href}</ul>`;
+    // }
+    // });
   };
 
   function closeModal() {
@@ -34,6 +36,7 @@
     // document.getElementById('menu').style.display = "none";
     document.getElementById('carruselContent').style.display = "none";
     document.getElementById('contactContent').style.display = "none";
+    document.getElementById('carruselBio').style.display = "none";
   };
 
   // Inicializaciones de Materialize
@@ -46,7 +49,8 @@
   document.addEventListener('DOMContentLoaded', function () {
     var elems = document.querySelectorAll('.fixed-action-btn');
     var instances2 = M.FloatingActionButton.init(elems, {
-      toolbarEnabled: true
+      toolbarEnabled: true,
+      direction: 'top'
     });
   });
 
@@ -67,8 +71,23 @@
     myWorld.style.display = "none";
     letsTalk.style.display = "none";
     content.style.display = "none";
+    document.getElementById('carruselBio').style.display = "none";
     document.getElementById('carruselContent').style.display = "none";
     // document.getElementById('menu').style.display = "block";
     document.getElementById('contactContent').style.display = "block";
 
+  }
+
+  function openBio() {
+    document.getElementById('fotoContent').style.display = "none";
+    favoriteCodes.style.display = "none";
+    myWorld.style.display = "none";
+    letsTalk.style.display = "none";
+    content.style.display = "none";
+    document.getElementById('carruselContent').style.display = "none";
+    // document.getElementById('menu').style.display = "block";
+    document.getElementById('contactContent').style.display = "none";
+    document.getElementById('carruselBio').style.display = "block";
+    var elems = document.querySelectorAll('.carousel');
+    instances = M.Carousel.init(elems);
   }
